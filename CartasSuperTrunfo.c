@@ -23,34 +23,35 @@ int main(){
  scanf("%19s", estado1);
  printf("codigo [%s]: ", codigo1);
  scanf("%9s", codigo1);
- printf("populacao [%d]:", populacao1);
- scanf("%d", populacao1);
- printf("area (km2) [%.2f]:", area1);
- scanf("%.2f", area1);
- printf("pib [%2.f]:", pib1);
+ printf("populacao [%d]: ", populacao1);
+ scanf("%d", &populacao1);
+ printf("area (km2) [%.2f]: ", area1);
+ scanf("%f", &area1);
+ printf("pib [%.2f]: ", pib1);
  scanf("%2f", &pib1);
- printf("pontos turisticos [%d]:", pontos1);
+ printf("pontos turisticos [%d]: ", pontos1);
  scanf("%d", &pontos1);
 
  printf("\ndigite os dados da carta 2 (recife):\n");
- printf("estado [%s]:", estado2);
+ printf("estado [%s]: ", estado2);
  scanf("%19s", estado2);
- printf("codigo [%s]:", codigo2);
- scanf("%9s, codigo2");
- printf("populacao [%d]:", populacao2);
+ printf("codigo [%s]: ", codigo2);
+ scanf("%9s", codigo2);
+ printf("populacao [%d]: ", populacao2);
  scanf("%d", &populacao2);
- printf("area (km2) [%.2f]:", area2);
- scanf("pib [%.2f]:", pib2);
- printf("pontos turisticos [%d]:", pontos2);
+ printf("area (km2) [%.2f]: ", area2);
+ scanf("%f", &area2);
+ printf("pib [%.2f]: ", pib2);
+ printf("pontos turisticos [%d]: ", pontos2);
  scanf("%d", &pontos2);
 
 
  printf("\n====== carta 1 ======\n");
  printf("estado: %s\n", estado1);
  printf("codigo: %s\n", codigo1);
- prinft("cidade: %d\n", cidade1);
+ printf("cidade: %s\n", cidade1);
  printf("populacao: %d\n", populacao1);
- printf("area: %.2 km2\n", area1);
+ printf("area: %.2f km2\n", area1);
  printf("pib: %.2f\n", pib1);
  printf("pontos turisticos: %d\n", pontos1);
 
